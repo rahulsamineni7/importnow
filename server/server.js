@@ -19,7 +19,7 @@ const zlib = require('zlib');
 
 const PORT = parseInt(process.env.PORT, 10) || 3000;
 const HOST = process.env.HOST || '0.0.0.0';
-const ROOT_DIR = __dirname;
+const ROOT_DIR = path.resolve(__dirname, '..');
 
 // MIME Map with charset specification
 const MIME_TYPES = {

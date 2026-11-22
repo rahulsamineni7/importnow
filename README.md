@@ -11,7 +11,9 @@ No `npm install` needed! Uses native Node.js:
 
 ```bash
 cd importnow
-node server.js
+node server/server.js
+# or
+npm start
 ```
 Open **http://localhost:3000** in your browser.
 
