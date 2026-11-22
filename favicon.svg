@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0a0a0a"/>
+  <!-- stylized logo-o glyph in brand red -->
+  <path d="M22 13 A24 24 0 1 0 42 13" fill="none" stroke="#e3241b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M32 8 v24 M20 22 l12 12 l12 -12" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

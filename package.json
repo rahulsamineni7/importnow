@@ -1,0 +1,21 @@
+{
+  "name": "importnow-replica",
+  "version": "1.0.0",
+  "description": "1:1 Replicated ImportNow Production App with Full Enterprise Cybersecurity Protection",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "importnow",
+    "replica",
+    "threejs",
+    "china-india-imports",
+    "cybersecurity",
+    "owasp"
+  ],
+  "author": "ImportNow Security Engineering",
+  "license": "UNLICENSED",
+  "private": true
+}

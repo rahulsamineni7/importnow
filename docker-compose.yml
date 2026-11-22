@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  importnow-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: importnow_secure_app
+    ports:
+      - "8080:80"
+    restart: always
+    security_opt:
+      - no-new-privileges:true
+    read_only: false
+    tmpfs:
+      - /tmp
+      - /var/run
+      - /var/cache/nginx
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_BIND_SERVICE
+      - CHOWN
+      - SETGID
+      - SETUID
+    environment:
+      - NODE_ENV=production
